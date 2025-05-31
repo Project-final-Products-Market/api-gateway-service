@@ -2,6 +2,8 @@
 
 Servicio de enrutamiento centralizado para la plataforma de e-commerce Products Market.
 
+## 📋 Descripción
+
 Funciona como el núcleo de comunicaciones del ecosistema, proporcionando:
 - Distribución inteligente de tráfico
 - Equilibrio de cargas dinámico
@@ -14,10 +16,11 @@ Funciona como el núcleo de comunicaciones del ecosistema, proporcionando:
 
 - Java 21
 - Spring Boot 3.4.5
-- Spring Cloud Gateway
-- Spring Cloud Netflix Eureka
-- Spring Cloud LoadBalancer
 - Lombok
+- Spring Cloud Gateway
+- Spring Cloud LoadBalancer
+- Spring Cloud Netflix Eureka
+
 
 ## 🎯 Funcionalidades Clave
 
@@ -56,9 +59,6 @@ eureka.instance.prefer-ip-address=true
     - Order Service (8083)
 
 3. **Inicializar Gateway:**
-   ```bash
-   mvn spring-boot:run
-   ```
 
 4. **Verificar funcionamiento:** [http://localhost:8087](http://localhost:8087)
 
@@ -102,13 +102,15 @@ GET http://localhost:8087/health
 | Descubrimiento dinámico | Depuración simplificada | Métricas consolidadas |
 | Control de errores | Configuración centralizada | Seguridad unificada |
 
-## 🚀 Mejoras Planificadas
+## 🚀 Mejoras Planificadas de futuro
 
 - 🛡️ Sistema de autenticación JWT
 - ⏱️ Limitación de velocidad de requests
 - 🔄 Patrones de recuperación ante fallos
-- 📈 Dashboard de métricas avanzado
 
 ---
 
-🌐 **Núcleo de comunicaciones del ecosistema Products Market**
+## 👨‍ Autor
+
+### **Jose Manuel Siguero Pérez**
+### [Linkedin](www.linkedin.com/in/jose-manuel-siguero)
