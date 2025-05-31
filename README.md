@@ -113,4 +113,4 @@ GET http://localhost:8087/health
 ## 👨‍ Autor
 
 ### **Jose Manuel Siguero Pérez**
-### [Linkedin](www.linkedin.com/in/jose-manuel-siguero)
+### [Linkedin](https://www.linkedin.com/in/jose-manuel-siguero)
